@@ -1,0 +1,9 @@
+.game__compobox {
+  height: 400px;
+  width: 250px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

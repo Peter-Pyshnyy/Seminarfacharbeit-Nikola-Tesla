@@ -1,0 +1,9 @@
+.wrapper--pc {
+  padding: 0 130px;
+  margin: 0;
+}
+
+.wrapper--mobile {
+  padding: 0 30px;
+  margin: 0;
+}

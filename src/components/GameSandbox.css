@@ -1,0 +1,34 @@
+.game__sandbox {
+  height: 320px;
+  width: 500px;
+  border: 1px solid #fff;
+  background: url("../img/game-test.jpg");
+  position: relative;
+}
+
+.game__sandbox__dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.game__sandbox > .one {
+  left: 63%;
+  top: 10%;
+}
+
+.game__sandbox > .two {
+  left: 14%;
+  top: 42%;
+}
+
+.game__sandbox > .three {
+  left: 55%;
+  top: 70%;
+}
+
+.game__sandbox > .four {
+  left: 76%;
+  top: 36%;
+}

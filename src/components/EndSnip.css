@@ -1,0 +1,12 @@
+.end-snip > h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 61px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.end-snip > p {
+  font-size: 19px;
+  line-height: 27px;
+}

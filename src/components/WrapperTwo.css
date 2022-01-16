@@ -1,0 +1,10 @@
+.wrapper-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper-two > * {
+  max-width: 1250px;
+}

@@ -1,0 +1,6 @@
+.inventions__cards__flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1400px;
+}

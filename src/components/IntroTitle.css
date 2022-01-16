@@ -1,0 +1,37 @@
+@keyframes slideInFromBot {
+  0% {
+    transform: translate(-50%);
+    opacity: 50%;
+  }
+  100% {
+    transform: translate(50% 50%);
+    opacity: 90%;
+  }
+}
+
+.intro__title--pc {
+  font-size: 112px;
+  line-height: 149px;
+  max-width: 800px;
+}
+
+.intro__title--mobile {
+  font-size: 80px;
+  line-height: 90px;
+  max-width: 350px;
+}
+
+.intro__title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: slideInFromBot 1s ease-out;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  opacity: 90%;
+}
